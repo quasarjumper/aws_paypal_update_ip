@@ -19,6 +19,12 @@ You could just invoke this script in as a cron job every 30 min.
 */30 * * * * python2 /path/to/script/update_paypal_ip.py
 ```
 
+The endpoints for PayPal staging environment is as below.
+```
+PAYPAL_API_NAME = "api-3t.sandbox.paypal.com"
+PAYPAL_3T_NAME = "api.sandbox.paypal.com"
+```
+
 ## Contributing
 
 1. Fork it!
